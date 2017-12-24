@@ -36,7 +36,8 @@ xmlhttp.open("GET","books.xml",false);
 xmlhttp.send(null);
 xmlDoc=xmlhttp.responseXML;
 
-x=xmlDoc.getElementsByTagName("title");
+x=xmlDoc.getElementsByTagName("title")[2].childNodes[0];
+x.nodeValue="dsfdfrfefe";
 document.write(x[2].childNodes[0].nodeValue);
 </script>
 	</body>
