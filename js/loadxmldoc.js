@@ -20,8 +20,8 @@ catch(e)
   {  
    var xmlhttp = new window.XMLHttpRequest();  
    xmlhttp.open("GET",file,false);  
-   xmlhttp.send();  
-   xmlDoc = xmlhttp.responseXML;  
+   xmlhttp.send(null);  
+   xmlDoc = xmlhttp.responseXML.documentElement;  
   }  
   catch(e)  
   {  
