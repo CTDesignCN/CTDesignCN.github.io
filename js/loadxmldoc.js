@@ -25,7 +25,8 @@ catch(e)
   }  
   catch(e)  
   {  
-   error=e.message;  
+   error=e.message; 
+   document.write("error");
   }  
  }  
 }
