@@ -1,4 +1,4 @@
-function loadXMLDoc(dname) 
+function loadXMLDoc(file) 
 {
 try //Internet Explorer  
 {  
