@@ -38,7 +38,10 @@ xmlDoc=xmlhttp.responseXML;
 
 x=xmlDoc.getElementsByTagName("title")[2].childNodes[0];
 x.nodeValue="dsfdfrfefe";
-document.write(x[2].childNodes[0].nodeValue);
+
+x=xmlDoc.getElementsByTagName("title")[2].childNodes[0];
+txt=x.nodeValue;
+document.write(txt);
 </script>
 	</body>
 </html>
