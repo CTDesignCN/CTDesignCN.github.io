@@ -52,21 +52,22 @@ a.back:hover
 a.back:active{color: #888888;text-decoration: none;}
 
 /*子页面锚点区域*/
-ul
+div.anchor
 {
   position:fixed;
-  left:86%;
+  left:70%;
   top:30px;
+  width: 30%;
   font-size: 12PX;
-  margin-left: 0px;
   margin:0;
+  background-color: #E8E8E8;
+  display: none;
 }
 /*子页面锚点链接*/
 a.anchor
 {
   margin-left:5px;
   margin-right:5px;
-  background-color:#D8D8D8;
 }
 a.anchor:link{color: #888888;text-decoration: none;}
 a.anchor:visited{color: #888888;text-decoration: none;}
@@ -77,30 +78,21 @@ a.anchor:hover
 }
 a.anchor:active{color: #888888;text-decoration: none;}
 
-/*中间标题-当前页面*/
-div.midTitle
+/*标题-当前页面*/
+p.midTitle
 {
   position:fixed;
-  left:60%;
+  left:70%;
   top:0px;
-  width:40%;
+  width:30%;
 	text-align: center;
   background-color:#C8C8C8;
-  border-radius:15px;
   line-height: 30px;
   height: 30px;
   margin: 0px;
   text-indent: 0em;
   font-weight: bold;
   overflow: hidden;
-transition:height 0.5s;
--moz-transition:height 0.5s; /* Firefox 4 */
--webkit-transition:height 0.5s; /* Safari and Chrome */
--o-transition:height 0.5s; /* Opera */
-}
-div.midTitle:hover
-{
-height:90%;
 }
 /*列表样式*/
 a.title
