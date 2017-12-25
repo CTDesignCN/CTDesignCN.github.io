@@ -60,7 +60,6 @@ ul
   font-size: 12PX;
   margin-left: 0px;
   margin:0;
-  visibility: hidden;
 }
 /*子页面锚点链接*/
 a.anchor
@@ -89,13 +88,14 @@ p.midTitle
   background-color:#C8C8C8;
   border-radius:15px;
   line-height: 30px;
+  height: 30px;
   margin: 0px;
   text-indent: 0em;
   font-weight: bold;
-transition:height 2s;
--moz-transition:height 2s; /* Firefox 4 */
--webkit-transition:height 2s; /* Safari and Chrome */
--o-transition:height 2s; /* Opera */
+transition:height 0.5s;
+-moz-transition:height 0.5s; /* Firefox 4 */
+-webkit-transition:height 0.5s; /* Safari and Chrome */
+-o-transition:height 0.5s; /* Opera */
 }
 p.midTitle:hover
 {
