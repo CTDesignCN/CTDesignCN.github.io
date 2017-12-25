@@ -51,7 +51,7 @@ a.back:hover
 }
 a.back:active{color: #888888;text-decoration: none;}
 
-/*子页面锚点*/
+/*子页面锚点区域*/
 ul
 {
   position:fixed;
@@ -61,6 +61,22 @@ ul
   margin-left: 0px;
   margin:0;
 }
+/*子页面锚点链接*/
+a.anchor
+{
+  margin-left:5px;
+  margin-right:5px;
+  background-color:#D8D8D8;
+}
+a.anchor:link{color: #888888;text-decoration: none;}
+a.anchor:visited{color: #888888;text-decoration: none;}
+a.anchor:hover
+{
+  color: #000000;
+  text-decoration: underline;
+}
+a.anchor:active{color: #888888;text-decoration: none;}
+
 /*中间标题-当前页面*/
 p.midTitle
 {
