@@ -37,11 +37,12 @@ xmlhttp.send(null);
 xmlDoc=xmlhttp.responseXML;
 
 x=xmlDoc.getElementsByTagName("title")[2].childNodes[0];
-x.nodeValue="dsfdfrfefe";
+x.nodeValue="dsdwe";
 
-x=xmlDoc.getElementsByTagName("title")[2].childNodes[0];
-txt=x.nodeValue;
-document.write(txt);
+xmlDoc.save("books.xml");
+
+x=xmlDoc.getElementsByTagName("title");
+document.write(x[2].childNodes[0].nodeValue);
 </script>
 	</body>
 </html>
