@@ -60,6 +60,7 @@ ul
   font-size: 12PX;
   margin-left: 0px;
   margin:0;
+  visibility: hidden;
 }
 /*子页面锚点链接*/
 a.anchor
