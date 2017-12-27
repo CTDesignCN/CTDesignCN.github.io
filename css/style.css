@@ -64,6 +64,7 @@ div.anchor
   background-color: #E8E8E8;
   display: none;
   text-align: center;
+  opacity: 0.9;
 }
 /*子页面锚点链接*/
 a.anchor
