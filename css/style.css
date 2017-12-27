@@ -55,14 +55,15 @@ a.back:active{color: #888888;text-decoration: none;}
 div.anchor
 {
   position:fixed;
-  left:70%;
+  left:50%;
   top:30px;
-  width: 30%;
+  width: 50%;
   height:100%;
   font-size: 12PX;
   margin:0;
   background-color: #E8E8E8;
   display: none;
+  text-align: center;
 }
 /*子页面锚点链接*/
 a.anchor
@@ -83,13 +84,13 @@ a.anchor:active{color: #888888;text-decoration: none;}
 p.midTitle
 {
   position:fixed;
-  left:70%;
+  left:50%;
   top:0px;
-  width:30%;
-	text-align: center;
+  width:50%;
+  text-align: center;
   background-color:#C8C8C8;
+  font-size: 14px;
   line-height: 30px;
-  height: 30px;
   margin: 0px;
   text-indent: 0em;
   font-weight: bold;
